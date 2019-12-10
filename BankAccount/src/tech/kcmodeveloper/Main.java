@@ -10,6 +10,8 @@ public class Main {
                 "dan123@google.com", "555-876-1234");
         BankAccount Willie = new BankAccount("1625373", 3267.98, "Willie",
                 "wilie123@google.com", "555-324-1234");
+        BankAccount Marsha = new BankAccount("125609", 267.98, "Marsha",
+                "marsha123@google.com", "555-123-1234");
 
         Katie.getCustomerName();
         Katie.getCustomerEmail();
@@ -41,5 +43,16 @@ public class Main {
         Willie.accountWithdraw(345.98);
         Willie.getAccountBalance();
         Willie.getPhoneNumber();
+
+        System.out.println("\n\n");
+
+        Marsha.getCustomerName();
+        Marsha.getCustomerEmail();
+        Marsha.getAccountNumber();
+        Marsha.accountDeposit(367.79);
+        Marsha.getAccountBalance();
+        Marsha.accountWithdraw(345.98);
+        Marsha.getAccountBalance();
+        Marsha.getPhoneNumber();
     }
 }
