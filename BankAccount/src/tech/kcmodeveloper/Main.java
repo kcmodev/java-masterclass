@@ -6,7 +6,7 @@ public class Main {
 
     //practice creating constructors (including overloaded constructors) and learning about OOP
 
-    DecimalFormat df = new DecimalFormat("0.##");
+    DecimalFormat df = new DecimalFormat("0.##"); //keeps decimal places to two so it looks better, not used for arithmetic
 
     public static void main(String[] args) {
 
@@ -19,6 +19,7 @@ public class Main {
         BankAccount Marsha = new BankAccount("125609", 267.98, "Marsha",
                 "marsha123@google.com", "555-123-1234");
 
+        //printing in the methods instead of using returns
         Katie.getCustomerName();
         Katie.getCustomerEmail();
         Katie.getAccountNumber();
@@ -67,6 +68,7 @@ public class Main {
 
         System.out.println("\n\n");
 
+        //different methods of printing using returns only
         System.out.println("VIP Customer \n Name: " + Default.getName() + "\n Credit Limit: $" + Default.getCreditLimit() + "\n Email Address: " + Default.getEmailAddress());
         System.out.println("\n");
         System.out.println("VIP Customer \n Name: " + Kyle.getName() + "\n Credit Limit: $" + Kyle.getCreditLimit() + "\n Email Address: " + Kyle.getEmailAddress());
