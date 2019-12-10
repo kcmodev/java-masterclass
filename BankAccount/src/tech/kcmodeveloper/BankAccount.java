@@ -21,7 +21,7 @@ public class BankAccount {
     }
 
     public void accountWithdraw(double amountToWithdraw){
-        if (this.accountBalance >= amountToWithdraw) { // wont allow a withdraw if the withdraw amount is more than what is in the account
+        if (this.accountBalance > amountToWithdraw) { // wont allow a withdraw if the withdraw amount is more than what is in the account
             System.out.println("You are withdrawing $" + amountToWithdraw + " from your checking account.");
             System.out.println("Your balance before the withdraw: $" + df.format(this.accountBalance) + ".");
             this.accountBalance -= amountToWithdraw;
