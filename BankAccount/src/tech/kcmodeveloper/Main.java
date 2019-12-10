@@ -1,6 +1,10 @@
 package tech.kcmodeveloper;
 
+import java.text.DecimalFormat;
+
 public class Main {
+
+    DecimalFormat df = new DecimalFormat("0.##");
 
     public static void main(String[] args) {
 
@@ -54,5 +58,17 @@ public class Main {
         Marsha.accountWithdraw(345.98);
         Marsha.getAccountBalance();
         Marsha.getPhoneNumber();
+
+        VipCustomer Default = new VipCustomer();
+        VipCustomer Kyle = new VipCustomer("Kyle McGrady", "kyle123@google.com");
+        VipCustomer Chris = new VipCustomer("Chris Smith", 22000, "chris123@google.com");
+
+        System.out.println("\n\n");
+
+        System.out.println("VIP Customer \n Name: " + Default.getName() + "\n Credit Limit: $" + Default.getCreditLimit() + "\n Email Address: " + Default.getEmailAddress());
+        System.out.println("\n");
+        System.out.println("VIP Customer \n Name: " + Kyle.getName() + "\n Credit Limit: $" + Kyle.getCreditLimit() + "\n Email Address: " + Kyle.getEmailAddress());
+        System.out.println("\n");
+        System.out.println("VIP Customer \n Name: " + Chris.getName() + "\n Credit Limit: $" + Chris.getCreditLimit() + "\n Email Address: " + Chris.getEmailAddress());
     }
 }
