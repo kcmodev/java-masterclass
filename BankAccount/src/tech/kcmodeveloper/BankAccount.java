@@ -6,11 +6,19 @@ public class BankAccount {
 
     DecimalFormat df = new DecimalFormat("0.##");
 
-    private double accountNumber;
+    private String accountNumber;
     private double accountBalance;
     private String customerName;
     private String customerEmail;
     private String phoneNumber;
+
+    public BankAccount(String accountNumber, double accountBalance, String customerName, String customerEmail, String phoneNumber){
+        this.accountNumber = accountNumber;
+        this.accountBalance = accountBalance;
+        this.customerName = customerName;
+        this.customerEmail = customerEmail;
+        this.phoneNumber = phoneNumber;
+    }
 
     public void accountWithdraw(double amountToWithdraw){
         if (this.accountBalance >= amountToWithdraw) { // wont allow a withdraw if the withdraw amount is more than what is in the account
@@ -31,7 +39,7 @@ public class BankAccount {
         System.out.println("Your balance after the deposit: $" + df.format(this.accountBalance) + ".");
     }
 
-    public void setAccountNumber(int accountNumber){
+    public void setAccountNumber(String accountNumber){
         this.accountNumber = accountNumber;
         System.out.println("Your account number is set to: " + this.accountNumber + ".");
     }
