@@ -29,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -82,6 +82,14 @@
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="-692" y="828" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2048.1112/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1575987030843" />
+<<<<<<< HEAD
+    <state x="-760" y="694" key="FileChooserDialogImpl" timestamp="1576003822266">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state x="-760" y="694" key="FileChooserDialogImpl/0.0.2048.1112/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1576003822266" />
+    <state width="1037" height="559" key="GridCell.Tab.0.bottom" timestamp="1575989828029">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+=======
     <state x="517" y="380" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.811@0.23.1440.811" timestamp="1576002638903" />
     <state x="-760" y="694" key="FileChooserDialogImpl" timestamp="1575988486928">
       <screen x="-1080" y="0" width="1080" height="1880" />
@@ -89,6 +97,7 @@
     <state x="-760" y="694" key="FileChooserDialogImpl/0.0.2048.1112/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1575988486928" />
     <state width="1398" height="246" key="GridCell.Tab.0.bottom" timestamp="1576002669832">
       <screen x="0" y="23" width="1440" height="811" />
+>>>>>>> 7053b75fb3285dac9637dd48990222805354cb53
     </state>
     <state width="1037" height="559" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1575989828029" />
     <state width="1398" height="246" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1576002669832" />
@@ -115,19 +124,19 @@
     <state width="1398" height="246" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1576002669831" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1194.834/0.0.1440.900@0.0.1440.900" timestamp="1575945513699" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/1440.23.1194.811/0.23.1440.811@0.23.1440.811" timestamp="1575946925231" />
-    <state x="-1039" y="582" key="SettingsEditor" timestamp="1575989793307">
+    <state x="-1039" y="582" key="SettingsEditor" timestamp="1576003827197">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state x="-1039" y="582" key="SettingsEditor/0.0.2048.1112/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1575989793307" />
+    <state x="-1039" y="582" key="SettingsEditor/0.0.2048.1112/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1576003827197" />
     <state x="403" y="286" key="com.intellij.ide.util.TipDialog" timestamp="1575944596823">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="403" y="286" key="com.intellij.ide.util.TipDialog/1440.0.1194.834/0.0.1440.900@0.0.1440.900" timestamp="1575944596823" />
     <state x="403" y="281" key="com.intellij.ide.util.TipDialog/1440.23.1194.811/0.23.1440.811@0.23.1440.811" timestamp="1575942167171" />
-    <state x="-731" y="856" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575989817513">
+    <state x="-731" y="856" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576003852280">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state x="-731" y="856" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1575989817513" />
+    <state x="-731" y="856" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1576003852280" />
     <state x="-877" y="435" key="search.everywhere.popup" timestamp="1575988677934">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
