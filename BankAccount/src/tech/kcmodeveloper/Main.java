@@ -4,6 +4,8 @@ import java.text.DecimalFormat;
 
 public class Main {
 
+    //practice creating constructors (including overloaded constructors) and learning about OOP
+
     DecimalFormat df = new DecimalFormat("0.##");
 
     public static void main(String[] args) {
